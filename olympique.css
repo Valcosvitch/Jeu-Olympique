@@ -26,15 +26,20 @@
     border-color:black;
     border-radius:20px;
 }
-#mondiaux{
+#mondiaux , #prems ,#officiels {
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
     width:30%;
 }
-#mondiaux h3{
+#mondiaux , #prems,#officiels h3{
     justify-content:center;
     text-align: center;
-    font-size:200%;
+    font-size:200 rem;
+
+}
+footer{
+    display:flex;
+    justify-content:space-around;
 
 }
