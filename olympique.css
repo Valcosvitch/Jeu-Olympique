@@ -1,0 +1,40 @@
+#logo img{
+    width: 250px;
+    height:auto;
+}
+#logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#date{
+    font-size: xx-large;
+}
+#menu{
+    display:flex;
+    justify-content:space-around;
+}
+#banderolle{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    border-radius:20px;
+}
+#mondiaux{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    width:30%;
+}
+#mondiaux h3{
+    justify-content:center;
+    text-align: center;
+    font-size:200%;
+
+}
